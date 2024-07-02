@@ -43,9 +43,34 @@ To implement the Fibonacci algorithm we need most of the same things as in the c
 To replace the for loop with recursion, we need to encapsulate much of the code in a function, and we need the function to call itself to create a new Fibonacci number as long as the produced number of Fibonacci numbers is below, or equal to, 19.
 
 
-3. Finding The nth Fibonacci Number Using Recursion
+# 3. Finding The nth Fibonacci Number Using Recursion
 To find the nth Fibonacci number we can write code based on the mathematic formula for Fibonacci number 
 n: F(n) = F(n−1) F(n−2)
 
 This just means that for example the 10th Fibonacci number is the sum of the 9th and 8th Fibonacci numbers.
 
+# How it works:
+
+Go through the array, one value at a time.
+For each value, compare the value with the next value.
+If the value is higher than the next one, swap the values so that the highest value comes last.
+Go through the array as many times as there are values in the array.
+
+Can you see what happened to the highest value 12? It has bubbled up to the end of the array, where it belongs. But the rest of the array remains unsorted.
+
+# Bubble Sort Implementation
+
+To implement the Bubble Sort algorithm in a programming language, we need:
+
+An array with values to sort.
+An inner loop that goes through the array and swaps values if the first value is higher than the next value. This loop must loop through one less value each time it runs.
+An outer loop that controls how many times the inner loop must run. For an array with n values, this outer loop must run n-1 times.
+
+
+# selection sort 
+
+How it works:
+
+Go through the array to find the lowest value.
+Move the lowest value to the front of the unsorted part of the array.
+Go through the array again as many times as there are values in the array.
