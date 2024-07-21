@@ -7,7 +7,7 @@ Strings in python are surrounded by either single quotation marks, or double quo
 You can display a string literal with the print() function:
 
 
-# Assign String to a Variable
+## Assign String to a Variable
 
 Assigning a string to a variable is done with the variable name followed by an equal sign and the string:
 
@@ -33,3 +33,22 @@ To check if a certain phrase or character is present in a string, we can use the
 # Check if NOT
 To check if a certain phrase or character is NOT present in a string, we can use the keyword not in.
 ## Use it in an if statement:
+
+
+# Slicing
+You can return a range of characters by using the slice syntax.
+
+Specify the start index and the end index, separated by a colon, to return a part of the string.
+
+## Slice From the Start
+By leaving out the start index, the range will start at the first character:
+
+## Slice To the End
+By leaving out the end index, the range will go to the end:
+
+## Negative Indexing
+Use negative indexes to start the slice from the end of the string:
+
+
+# Upper Case
+The upper() method returns the string in upper case:
