@@ -49,6 +49,12 @@ By leaving out the end index, the range will go to the end:
 ## Negative Indexing
 Use negative indexes to start the slice from the end of the string:
 
-
-# Upper Case
+# strings modify 
+### Upper Case
 The upper() method returns the string in upper case:
+
+### lower case
+The lower() method returns the string in lower case:
+
+### Remove Whitespace
+Whitespace is the space before and/or after the actual text, and very often you want to remove this space.
