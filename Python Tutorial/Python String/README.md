@@ -58,3 +58,33 @@ The lower() method returns the string in lower case:
 
 ### Remove Whitespace
 Whitespace is the space before and/or after the actual text, and very often you want to remove this space.
+
+
+## Replace String
+
+The replace() method replaces a string with another string:
+
+## Split String
+The split() method returns a list where the text between the specified separator becomes the list items.
+
+The split() method splits the string into substrings if it finds instances of the separator:
+
+# String Concatenation
+To concatenate, or combine, two strings you can use the + operator.
+
+# String Format
+As we learned in the Python Variables chapter, we cannot combine strings and numbers like this:
+
+## F-Strings
+F-String was introduced in Python 3.6, and is now the preferred way of formatting strings.
+
+To specify a string as an f-string, simply put an f in front of the string literal, and add curly brackets {} as placeholders for variables and other operations..
+
+### Placeholders and Modifiers
+A placeholder can contain variables, operations, functions, and modifiers to format the value.
+
+A placeholder can include a modifier to format the value.
+
+A modifier is included by adding a colon : followed by a legal formatting type, like .2f which means fixed point number with 2 decimals:
+
+A placeholder can contain Python code, like math operations:
